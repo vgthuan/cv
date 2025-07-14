@@ -1,0 +1,417 @@
+:root {
+  --first-color: #668a6f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-image: url(natural.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}
+
+/*=============== Common ================= */
+.container {
+  width: 100%;
+  margin-left: auto;
+  max-width: calc(100% - 24px);
+}
+
+/*=============== Header ================= */
+.header,
+main {
+  width: 1200px;
+  max-width: calc(100% - 48px);
+  padding-top: 30px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  padding-bottom: 10px;
+}
+
+.head-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head__name {
+  font-size: 4.2rem;
+  line-height: 1.67;
+  color: var(--first-color);
+  font-weight: 600;
+  width: 40%;
+  margin-top: 10px;
+}
+
+.location {
+  background: var(--first-color);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+  width: 60%;
+  margin-right: 40px;
+}
+
+.candidate-position {
+  color: #f4f4f4;
+  font-size: 1.6rem;
+  display: flex;
+  margin-right: 10px;
+}
+
+/*========== Main ============ */
+main {
+  background: #fff;
+  margin-top: 0;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.main-content {
+  display: flex;
+  justify-items: center;
+}
+
+.main-media {
+  width: 320px;
+  background: var(--first-color);
+}
+
+.main-skill {
+  width: 73%;
+}
+
+.main__img {
+  width: 320px;
+  height: 420px;
+  object-fit: cover;
+}
+
+.main-info {
+  padding: 25px;
+}
+
+.info__name {
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+}
+
+.info__name::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  width: 250px;
+  height: 2px;
+  background: #ffffffae;
+  border-radius: 1px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 18px;
+}
+
+.info-item {
+  display: flex;
+  padding-top: 7px;
+  align-items: center;
+}
+
+.fa-calendar,
+.fa-phone,
+.fa-envelope,
+.fa-facebook,
+.fa-house,
+.fa-github {
+  color: #fff;
+}
+
+.infomation {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 150;
+  line-height: 1.6;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.info__name:nth-child(n + 2) {
+  margin-top: 20px;
+}
+
+.focus-content {
+  padding-top: 20px;
+  text-align: justify;
+  color: #fff;
+  font-weight: 150;
+  line-height: 1.6;
+}
+
+ol {
+  list-style-type: square;
+}
+
+.professional__skills ol li::marker {
+  color: #fff;
+}
+
+.my-skills {
+  margin-top: 20px;
+}
+
+.pro-skill {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #fff;
+}
+.professional__skills {
+  padding: 0 20px 0;
+}
+
+.professional__skills ol li {
+  text-align: justify;
+  color: #fff;
+  font-weight: 150;
+  line-height: 1.6;
+}
+
+ol li span {
+  font-weight: 300;
+}
+
+/*==== Content Right ==== */
+.main-skill__item-list--heading {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: var(--first-color);
+}
+
+.main-heading {
+  position: relative;
+  top: -20px;
+  left: 10px;
+}
+
+.main-skill__item-list--heading::after {
+  content: "";
+  height: 1px;
+  width: 430px;
+  background: var(--first-color);
+  border-radius: 1px;
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  right: 50px;
+}
+
+.place-time {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 15px 10px;
+}
+
+.place {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.time {
+  font-size: 1.4rem;
+}
+
+.main-skill__job {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.list-job {
+  margin: 0 50px 20px 40px;
+  line-height: 1.67;
+}
+
+.list-job ol {
+  list-style-type: disc;
+}
+
+ol li.job-content {
+  text-align: justify;
+}
+
+.main-heading2 {
+  margin-left: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.main-heading2::after {
+  content: "";
+  height: 1px;
+  width: 630px;
+  background: var(--first-color);
+  border-radius: 1px;
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  right: 50px;
+}
+
+.main-skill__study {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1291px) {
+  .main-skill__item-list--heading::after {
+    width: 0;
+    height: 0;
+  }
+}
+
+/*=============== Media Queries cho di động (dưới 768px) =============== */
+@media (max-width: 767px) {
+  /* Điều chỉnh container */
+  .header {
+    width: 100%;
+    padding: 20px 35px 0 15px; /* Giảm padding */
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  main {
+    width: 100%;
+    padding: 20px 15px; /* Giảm padding */
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-right: 35px;
+  }
+
+  /* Header: chuyển sang bố cục dọc */
+  .head-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .head__name {
+    font-size: 2.8rem; /* Giảm kích thước chữ */
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    text-align: center;
+  }
+  .location {
+    width: 100%;
+    margin-right: 0;
+    justify-content: center;
+    padding: 10px;
+  }
+  .candidate-position {
+    font-size: 1.4rem;
+    margin-right: 0;
+  }
+
+  /* Main: chuyển sang bố cục dọc */
+  .main-content {
+    flex-direction: column;
+  }
+  .main-media {
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+  }
+  .main-skill {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .main__img {
+    width: 100%; /* Hình ảnh co giãn theo container */
+    height: auto; /* Giữ tỷ lệ */
+    max-height: 300px; /* Giới hạn chiều cao */
+  }
+
+  /* Điều chỉnh thông tin cá nhân */
+  .main-info {
+    padding: 15px;
+  }
+  .info__name {
+    font-size: 1.4rem;
+  }
+  .info__name::after {
+    width: 100%; /* Đường gạch ngang co giãn theo container */
+  }
+  .infomation {
+    font-size: 1.3rem;
+    margin-left: 15px;
+  }
+  .focus-content {
+    font-size: 1.3rem;
+    padding-top: 15px;
+  }
+
+  /* Điều chỉnh kỹ năng */
+  .pro-skill {
+    font-size: 1.4rem;
+  }
+  .professional__skills {
+    padding: 0 10px;
+  }
+  .professional__skills ol li {
+    font-size: 1.3rem;
+  }
+
+  /* Điều chỉnh nội dung bên phải */
+  .main-skill__item-list--heading {
+    font-size: 2.2rem; /* Giảm kích thước tiêu đề */
+  }
+  .main-heading {
+    top: -10px;
+    left: 5px;
+  }
+  .main-skill__item-list--heading::after {
+    width: 100%; /* Đường gạch ngang co giãn */
+    right: 0;
+  }
+  .main-heading2::after {
+    width: 100%; /* Đường gạch ngang co giãn */
+    right: 0;
+  }
+  .place-time {
+    flex-direction: column; /* Xếp dọc địa điểm và thời gian */
+    padding: 0 15px 10px;
+  }
+  .place {
+    font-size: 1.6rem;
+  }
+  .time {
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+  .main-skill__job {
+    font-size: 1.5rem;
+    margin-left: 5px;
+  }
+  .list-job {
+    margin: 0 15px 15px 30px;
+    font-size: 1.3rem;
+  }
+
+  /* Đảm bảo danh sách công việc dễ đọc */
+  .list-job ol {
+    padding-left: 20px;
+  }
+  .job-content {
+    line-height: 1.5;
+  }
+}
