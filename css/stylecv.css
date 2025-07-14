@@ -360,6 +360,10 @@ ol li.job-content {
     padding-top: 15px;
   }
 
+  .place-time {
+    text-align: center;
+  }
+
   /* Điều chỉnh kỹ năng */
   .pro-skill {
     font-size: 1.4rem;
@@ -370,6 +374,9 @@ ol li.job-content {
   .professional__skills ol li {
     font-size: 1.3rem;
   }
+  .main-skill__study {
+    text-align: center;
+  }
 
   /* Điều chỉnh nội dung bên phải */
   .main-skill__item-list--heading {
@@ -378,7 +385,10 @@ ol li.job-content {
   .main-heading {
     top: -10px;
     left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
+
   .main-skill__item-list--heading::after {
     width: 100%; /* Đường gạch ngang co giãn */
     right: 0;
@@ -393,6 +403,7 @@ ol li.job-content {
   }
   .place {
     font-size: 1.6rem;
+    line-height: 2rem;
   }
   .time {
     font-size: 1.2rem;
